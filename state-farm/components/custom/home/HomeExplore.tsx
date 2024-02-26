@@ -2,7 +2,6 @@
 import { Typography } from "@/components/ui/typography";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/app/Variant";
-import { transition1 } from "@/app/Transition";
 
 const HomeExplore = () => {
   return (
@@ -33,7 +32,7 @@ const HomeExplore = () => {
                 </a>{" "}
                 brings decades of experience and a relentless drive to innovate
                 within the organic industry. At Farm Name, we cultivate premium,
-                nutrient-dense produce that not only nourishes the body but also
+                nutrient dense produce that not only nourishes the body but also
                 fuels the growing demand for organic products in today&apos;s
                 marketplace. Our commitment to quality, sustainability, and
                 consumer satisfaction sets us apart, driving growth and
@@ -42,7 +41,7 @@ const HomeExplore = () => {
               </Typography>
 
               <Typography variant="p" className="styled-link">
-                Experience the profitability of purpose-driven farming at Farm
+                Experience the profitability of purpose driven farming at Farm
                 Name, where every harvest represents a sustainable investment in
                 a brighter, greener future.
               </Typography>
