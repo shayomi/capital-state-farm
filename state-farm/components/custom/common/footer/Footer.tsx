@@ -16,7 +16,7 @@ const Footer = () => {
             />
 
             <Typography variant="p" className="text-foreground">
-              Nurturing nature's bounty sustainably, cultivating health,
+              Nurturing nature&apos;s bounty sustainably, cultivating health,
               fostering community, at Capital State Farm.
             </Typography>
           </div>

@@ -34,7 +34,7 @@ const HomeExplore = () => {
                 brings decades of experience and a relentless drive to innovate
                 within the organic industry. At Farm Name, we cultivate premium,
                 nutrient-dense produce that not only nourishes the body but also
-                fuels the growing demand for organic products in today's
+                fuels the growing demand for organic products in today&apos;s
                 marketplace. Our commitment to quality, sustainability, and
                 consumer satisfaction sets us apart, driving growth and
                 profitability while fostering a healthier planet for future
