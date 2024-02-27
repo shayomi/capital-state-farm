@@ -41,7 +41,7 @@ const ContactForm = () => {
   });
 
   return (
-    <div className="mt-12 max-w-[40%] mx-auto ">
+    <div className="mt-12 max-w-[80%] sm:max-w-[60%] md:max-w-[40%] mx-auto ">
       <Typography variant="h4" className="text-black font-bold">
         Send us a message
       </Typography>
