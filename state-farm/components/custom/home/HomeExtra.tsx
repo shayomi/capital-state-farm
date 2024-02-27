@@ -50,7 +50,7 @@ const HomeExtra = () => {
             >
               <img
                 src="/images/extra-img.png"
-                alt="Homepage hero image"
+                alt=" loading..."
                 className="h-[300px] sm:h-full sm:max-h-[400px] w-auto"
               />
             </motion.div>
