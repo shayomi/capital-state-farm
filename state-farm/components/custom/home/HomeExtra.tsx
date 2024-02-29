@@ -28,15 +28,12 @@ const HomeExtra = () => {
                   </Typography>
                 </div>
                 <div className="flex justify-center mx-auto md:mx-0 md:justify-start">
-                  <a>
-                    <Button
-                      size="lg"
-                      variant="secondary"
-                      className="text-foreground mt-3 "
-                    >
-                      Explore our farm
-                    </Button>
-                  </a>
+                  <Typography variant="p" className="text-white">
+                    For more information, see our{" "}
+                    <a href="/faq" className="text-secondary">
+                      FAQ
+                    </a>
+                  </Typography>
                 </div>
               </div>
             </motion.div>

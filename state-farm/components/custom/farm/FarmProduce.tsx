@@ -28,6 +28,15 @@ const FarmProduce: React.FC = () => {
   // Logic to slice the array of products to display only products for the current page
   const currentProducts = Farm.slice(indexOfFirstProduct, indexOfLastProduct);
 
+  // Determine the total number of products in the selected category
+  const totalProductsInCategory = Farm.filter(
+    (item) => !selectedCategory || item.category === selectedCategory
+  ).length;
+  // Calculate the number of pages based on the total number of products in the selected category
+  const totalCategoryPages = Math.ceil(
+    totalProductsInCategory / productsPerPage
+  );
+
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
   const handleCategoryFilter = (category: string | null) => {
@@ -40,10 +49,10 @@ const FarmProduce: React.FC = () => {
   };
 
   return (
-    <motion.section className="mt-24" id="service">
+    <motion.section className="mt-12" id="service">
       <div className="container">
-        <h1 className="background-text">Farm</h1>
-        <div className="flex justify-start gap-x-4 mb-4">
+        <h1 className="background-text text-center">Farm Products</h1>
+        <div className="flex justify-center gap-x-4 mb-4">
           {/* Category Filter Buttons */}
           <Button
             variant="outline"
@@ -77,7 +86,7 @@ const FarmProduce: React.FC = () => {
               </DropdownMenuContent>
             </DropdownMenu>
           </div>
-          <div className="hidden sm:flex">
+          <div className="hidden sm:flex gap-x-4">
             {Array.from(new Set(Farm.map((item) => item.category))).map(
               (category) => (
                 <Button
@@ -112,11 +121,11 @@ const FarmProduce: React.FC = () => {
                 key={index}
                 className="flex flex-col gap-y-5"
               >
-                <div className="bg-secondary gray-card-shadow px-2.5 py-5 sm:px-4 sm:py-6 rounded-lg">
+                <div className="bg-white border-[1px] border-secondary gray-card-shadow px-2.5 py-5 sm:px-4 sm:py-6 rounded-lg">
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="w-24 h-24 mx-auto"
+                    className="w-24 h-24 mx-auto drop-shadow-xl"
                   />
                 </div>
                 <Typography
@@ -130,13 +139,18 @@ const FarmProduce: React.FC = () => {
         </motion.div>
         {/* Pagination Buttons */}
         <div className="flex justify-center gap-x-4 mt-8">
-          {Array.from({ length: Math.ceil(Farm.length / productsPerPage) }).map(
-            (_, index) => (
-              <Button key={index + 1} onClick={() => paginate(index + 1)}>
-                {index + 1}
-              </Button>
-            )
-          )}
+          {Array.from({ length: totalCategoryPages }).map((_, index) => (
+            <Button
+              variant="outline"
+              key={index + 1}
+              onClick={() => paginate(index + 1)}
+              className={
+                currentPage === index + 1 ? "bg-primary text-white" : ""
+              }
+            >
+              {index + 1}
+            </Button>
+          ))}
         </div>
       </div>
     </motion.section>

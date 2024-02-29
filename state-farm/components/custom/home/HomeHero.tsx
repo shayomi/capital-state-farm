@@ -36,7 +36,7 @@ export default function HomeHero() {
               asChild
               className="button w-full sm:w-fit hidden md:flex"
             >
-              <Link href="#events">Explore Now</Link>
+              <Link href="/farm">Explore Now</Link>
             </Button>
           </motion.div>
           <motion.div

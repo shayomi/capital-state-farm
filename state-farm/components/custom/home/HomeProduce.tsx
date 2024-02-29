@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/app/Variant";
 import { transition1 } from "@/app/Transition";
+import Link from "next/link";
 
 const HomeProduce = () => {
   return (
@@ -47,7 +48,9 @@ const HomeProduce = () => {
           exit={"show"}
           className="mt-6 px-4 flex justify-center"
         >
-          <Button>See all Produce</Button>
+          <Button>
+            <Link href="/farm">See all Produce</Link>
+          </Button>
         </motion.div>
       </div>
     </motion.section>

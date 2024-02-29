@@ -22,7 +22,7 @@ const ContactDetails = () => {
             whileHover={{ scale: 1.1 }}
             transition={transition1}
             key={index}
-            className="bg-secondary  card-shadow rounded-lg text-center px-4 lg:px-12 py-6 sm:py-12 max-w-[400px] mx-auto"
+            className="bg-secondary  card-shadow rounded-lg text-center px-4 sm:px-12 py-6 sm:py-12 max-w-[400px] mx-auto"
           >
             <img
               src={item.icon}

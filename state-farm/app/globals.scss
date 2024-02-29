@@ -84,6 +84,11 @@
     background-image: url("../../state-farm/public/images/extra-bg.png");
   }
 
+  .farm-banner-bg {
+    background-image: url("../../state-farm/public/images/product-extra-bg.png");
+    background-repeat: no-repeat;
+  }
+
   .faq-hero-banner-bg {
     background-image: url("../../state-farm/public/images/faq-bg.png");
   }
@@ -98,6 +103,13 @@
 
   .faq-hero-banner-bg-small {
     background-image: url("../../state-farm/public/images/faq-bg-small.png");
+  }
+
+  .product-hero-banner-bg {
+    background-image: url("../../state-farm/public/images/product-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .card-shadow {
