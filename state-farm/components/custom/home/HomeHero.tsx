@@ -31,11 +31,7 @@ export default function HomeHero() {
               thrives and sustainability blooms. Taste the difference of
               organically grown goodness, straight from our fields to your table
             </p>
-            <Button
-              size="lg"
-              asChild
-              className="button w-full sm:w-fit hidden md:flex"
-            >
+            <Button size="lg" className="button w-full sm:w-fit hidden md:flex">
               <Link href="/farm">Explore Now</Link>
             </Button>
           </motion.div>
