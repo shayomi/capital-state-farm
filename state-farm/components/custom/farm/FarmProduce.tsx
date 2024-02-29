@@ -8,31 +8,25 @@ import { Button } from "@/components/ui/button";
 import { fadeIn } from "@/app/Variant";
 import { transition1 } from "@/app/Transition";
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 const FarmProduce: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [productsPerPage] = useState(16);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
-  // Logic to calculate index of the last product of the current page
   const indexOfLastProduct = currentPage * productsPerPage;
-  // Logic to calculate index of the first product of the current page
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
-  // Logic to slice the array of products to display only products for the current page
   const currentProducts = Farm.slice(indexOfFirstProduct, indexOfLastProduct);
 
-  // Determine the total number of products in the selected category
   const totalProductsInCategory = Farm.filter(
     (item) => !selectedCategory || item.category === selectedCategory
   ).length;
-  // Calculate the number of pages based on the total number of products in the selected category
   const totalCategoryPages = Math.ceil(
     totalProductsInCategory / productsPerPage
   );
@@ -40,69 +34,40 @@ const FarmProduce: React.FC = () => {
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
   const handleCategoryFilter = (category: string | null) => {
-    if (selectedCategory === category) {
-      setSelectedCategory(null); // Deselect the category if it's already selected
-    } else {
-      setSelectedCategory(category);
-    }
-    setCurrentPage(1); // Reset to first page when applying category filter
+    setSelectedCategory(category === "all" ? null : category); // Reset to null if "all" is selected
+    setCurrentPage(1);
   };
 
   return (
     <motion.section className="mt-12" id="service">
       <div className="container">
         <h1 className="background-text text-center">Farm Products</h1>
-        <div className="flex justify-center gap-x-4 mb-4">
-          {/* Category Filter Buttons */}
-          <Button
-            variant="outline"
-            onClick={() => handleCategoryFilter(null)}
-            className={!selectedCategory ? "bg-primary text-white" : ""}
+
+        <div className="flex justify-center gap-x-4 mb-4 items-center">
+          <Typography variant="h4" className="">
+            Filter by:
+          </Typography>
+          {/* Category Filter */}
+          <Select
+            onValueChange={(value) => handleCategoryFilter(value)}
+            defaultValue={selectedCategory || "all"} // Ensure "all" is the default value
           >
-            All Produce
-          </Button>
-          <div className=" px-6 flex sm:hidden">
-            <DropdownMenu>
-              <DropdownMenuTrigger>Categories</DropdownMenuTrigger>
-              <DropdownMenuContent>
-                <DropdownMenuItem className="flex flex-col gap-y-4">
-                  {Array.from(new Set(Farm.map((item) => item.category))).map(
-                    (category) => (
-                      <Button
-                        variant="ghost"
-                        key={category}
-                        onClick={() => handleCategoryFilter(category)}
-                        className={
-                          selectedCategory === category
-                            ? "bg-primary text-white"
-                            : ""
-                        }
-                      >
-                        {category}
-                      </Button>
-                    )
-                  )}
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
-          </div>
-          <div className="hidden sm:flex gap-x-4">
-            {Array.from(new Set(Farm.map((item) => item.category))).map(
-              (category) => (
-                <Button
-                  variant="outline"
-                  key={category}
-                  onClick={() => handleCategoryFilter(category)}
-                  className={
-                    selectedCategory === category ? "bg-primary text-white" : ""
-                  }
-                >
-                  {category}
-                </Button>
-              )
-            )}
-          </div>
+            <SelectTrigger className="w-[180px]">
+              <SelectValue placeholder="Filter by Category" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">All Products</SelectItem>
+              {Array.from(new Set(Farm.map((item) => item.category))).map(
+                (category, index) => (
+                  <SelectItem key={index} value={category}>
+                    {category}
+                  </SelectItem>
+                )
+              )}
+            </SelectContent>
+          </Select>
         </div>
+        {/* Product Display */}
         <motion.div
           variants={fadeIn("up", "tween", 0.2, 0.8)}
           initial="hidden"
