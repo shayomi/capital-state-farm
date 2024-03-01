@@ -39,7 +39,7 @@ const FarmProduce: React.FC = () => {
   };
 
   return (
-    <motion.section className="mt-12" id="service">
+    <motion.section className="mt-12 mb-24" id="service">
       <div className="container">
         <h1 className="background-text text-center">Farm Products</h1>
 
