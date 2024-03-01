@@ -43,7 +43,7 @@ const HomeService = () => {
             className="basis-full sm:basis-full lg:basis-5/12"
           >
             <img
-              src="/images/service-bg.png"
+              src="/images/meats.png"
               alt="service"
               className="w-full h-auto"
             />

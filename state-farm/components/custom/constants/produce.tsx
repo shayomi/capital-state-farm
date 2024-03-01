@@ -1,22 +1,22 @@
 export const Produce = [
   {
-    icon: "/images/dairies.png",
-    title: "Dairy products",
+    icon: "/images/egg.png",
+    title: "Eggs",
   },
   {
-    icon: "/images/avocado.png",
-    title: "Fruits",
+    icon: "/images/carrots.png",
+    title: "Carrots",
   },
   {
-    icon: "/images/meat.png",
+    icon: "/images/produce/redmeat.png",
     title: "Meats",
   },
   {
-    icon: "/images/veggies.png",
-    title: "Vegetables",
+    icon: "/images/produce/tomato.png",
+    title: "Tomatoes",
   },
   {
-    icon: "/images/crops.png",
-    title: "Crops",
+    icon: "/images/cuccumber.png",
+    title: "Cuccumber",
   },
 ];

@@ -32,7 +32,7 @@ const HomeProduce = () => {
                 <img
                   src={item.icon}
                   alt={item.title}
-                  className="w-24 h-24 mx-auto "
+                  className="w-24 h-24 mx-auto drop-shadow-xl "
                 />
               </div>
               <Typography variant="h5" className="mb-3 text-black text-center">

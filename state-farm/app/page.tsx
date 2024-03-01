@@ -4,6 +4,7 @@ import HomeStatsCard from "@/components/custom/home/HomeStatsCard";
 import HomeService from "@/components/custom/home/HomeService";
 import HomeProduce from "@/components/custom/home/HomeProduce";
 import HomeExtra from "@/components/custom/home/HomeExtra";
+import ProductValue from "@/components/custom/home/HomeProductValue";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <HomeStatsCard />
       <HomeService />
       <HomeProduce />
+      <ProductValue />
       <HomeExtra />
     </main>
   );
