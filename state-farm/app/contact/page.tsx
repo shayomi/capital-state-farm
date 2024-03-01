@@ -5,7 +5,7 @@ import ContactForm from "@/components/custom/contact/ContactForm";
 
 const FAQ = () => {
   return (
-    <main className="pt-20">
+    <main className="pt-20 pb-20">
       <ContactHero />
 
       <ContactDetails />
