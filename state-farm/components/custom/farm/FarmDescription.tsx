@@ -11,7 +11,7 @@ export default function FarmDescription() {
   return (
     <motion.section className="bg-primary-50 bg-dotted-pattern bg-contain py-12 md:py-10 mt-16">
       <div className="container">
-        <motion.div className="wrapper grid grid-cols-1 gap-10 md:grid-cols-2 2xl:gap-0">
+        <motion.div className="wrapper grid grid-cols-1 gap-10 md:grid-cols-2 2xl:gap-0 items-center">
           <motion.div
             variants={fadeIn("down", "tween", 0.2, 0.8)}
             initial="hidden"
@@ -23,25 +23,23 @@ export default function FarmDescription() {
               variant="h3"
               className="sm:leading-[36px] lg:leading-[42px]"
             >
-              Discover the Natural Difference at{" "}
-              <span className="text-primary">
-                Capital State Farm Organic Products!
-              </span>
+              Discover food in its purest form at{" "}
+              <span className="text-primary">Capital State Farm!</span>
             </Typography>
             <p className="p-regular-20 md:p-regular-24">
               <span className="text-accent font-medium">
-                Here at Capital State Farm, we&apos;re dedicated to delivering
-                the finest organic products straight from our fields to your
-                table.
-              </span>
-              Our commitment to organic farming means you can enjoy fruits,
-              vegetables, dairy, and meats that are free from harmful chemicals
-              and pesticides. At Capital State Farm, we prioritize the health of
-              our land and the well-being of our community. With each bite,
-              you&apos;re tasting the bounty of nature nurtured by sustainable
-              practices and a passion for quality. By choosing our organic
-              products, you&apos;re not only embracing a healthier lifestyle but
-              also supporting local agriculture and environmental stewardship.
+                Capital State Farm is dedicated to delivering the finest organic
+                produce straight from our fields to your countertop. Our
+                commitment to organic farming means you can enjoy chemical-free
+                fruits, vegetables, non-dairy, and meats.{" "}
+              </span>{" "}
+              At Capital State Farm, we love food in its most divine form, and
+              our love for food translates into our passion for the earth that
+              grows this food. Thus, we promote environmentally safe practices
+              that are kind to the planet. By choosing our organically grown
+              produce, you're not only embracing a healthier lifestyle but also
+              supporting age-long agricultural practices that protect the
+              environment.
             </p>
           </motion.div>
           <motion.div

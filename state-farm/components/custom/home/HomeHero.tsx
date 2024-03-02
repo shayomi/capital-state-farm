@@ -19,17 +19,24 @@ export default function HomeHero() {
             exit={"show"}
             className=" flex flex-col justify-center gap-8"
           >
-            <Typography
-              variant="h1"
-              className="sm:leading-[52px] lg:leading-[62px]"
-            >
-              Best Organic <span className="text-primary">Farm </span>And{" "}
-              <span className="text-primary">Agricultural</span> Produce
-            </Typography>
+            <div>
+              <Typography
+                variant="h1"
+                className="sm:leading-[52px] lg:leading-[62px]"
+              >
+                Home of Quality
+              </Typography>
+              <Typography
+                variant="h2"
+                className="sm:leading-[52px] lg:leading-[62px] text-primary"
+              >
+                Agricultural Produce
+              </Typography>
+            </div>
+
             <p className="p-regular-20 md:p-regular-24">
-              Discover the essence of purity at our organic farm – where nature
-              thrives and sustainability blooms. Taste the difference of
-              organically grown goodness, straight from our fields to your table
+              Enjoy food the way nature intended with organically grown produce
+              from our farm to your countertop.
             </p>
             <Button size="lg" className="button w-full sm:w-fit hidden md:flex">
               <Link href="/farm">Explore Now</Link>

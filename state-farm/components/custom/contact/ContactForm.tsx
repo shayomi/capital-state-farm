@@ -15,6 +15,7 @@ import {
   FormItem,
   FormMessage,
 } from "@/components/ui/form";
+import { Label } from "@/components/ui/label";
 
 const formSchema = z.object({
   Name: z
@@ -57,7 +58,7 @@ const ContactForm = () => {
                   <FormControl>
                     <Input
                       placeholder="Name"
-                      className="px-2.5 bg-white border-[1px] border-primary bg-opacity-25 text-white placeholder:text-priamry font-normal placeholder:font-light"
+                      className="px-2.5 bg-white border-[1px] border-primary bg-opacity-25 text-black placeholder:text-priamry font-normal placeholder:font-light"
                       {...field}
                     />
                   </FormControl>
@@ -74,7 +75,7 @@ const ContactForm = () => {
                   <FormControl>
                     <Input
                       placeholder="Your Phone Number"
-                      className="px-2.5 bg-white border-[1px] border-primary bg-opacity-25 text-white placeholder:text-secondar font-medium placeholder:font-light"
+                      className="px-2.5 bg-white border-[1px] border-primary bg-opacity-25 text-black placeholder:text-secondar font-medium placeholder:font-light"
                       {...field}
                     />
                   </FormControl>
@@ -93,7 +94,7 @@ const ContactForm = () => {
                       <Input
                         placeholder="Email"
                         type="email"
-                        className="px-2.5 bg-white border-[1px] border-primary bg-opacity-25 text-white placeholder:text-secondar font-medium placeholder:font-light"
+                        className="px-2.5 bg-white border-[1px] border-primary bg-opacity-25 text-black placeholder:text-secondar font-medium placeholder:font-light"
                         {...field}
                       />
                     </FormControl>
@@ -113,7 +114,7 @@ const ContactForm = () => {
                   <FormControl>
                     <Textarea
                       placeholder="What would you like us to do for you?"
-                      className="px-2.5 bg-white border-[1px] border-primary bg-opacity-25 text-white placeholder:text-secondar font-medium placeholder:font-light"
+                      className="px-2.5 bg-white border-[1px] border-primary bg-opacity-25 text-black placeholder:text-secondar font-medium placeholder:font-light"
                       {...field}
                     />
                   </FormControl>

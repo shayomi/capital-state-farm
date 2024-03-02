@@ -17,11 +17,11 @@ const FarmBanner = () => {
             className=" "
           >
             <Typography variant="p" className="text-white">
-              Indulge in the richness of nature with Capital State Farm&apos;s
-              exquisite organic products. From the moment our seeds touch the
+              Indulge in the richness of nature with Capital State Farm's Farm's
+              exquisite organic produce. From the moment our seeds touch the
               soil to the moment our harvest reaches your plate, we uphold the
-              highest standards of organic farming, ensuring that every bite is
-              a celebration of purity and quality.
+              highest standards of organic farming and processing to ensure that
+              every bite is a celebration of purity and quality.
             </Typography>
           </motion.div>
           <motion.div
@@ -32,13 +32,13 @@ const FarmBanner = () => {
             className=""
           >
             <Typography variant="p" className="text-white">
-              By choosing Capital State Farm Organic, you&apos;re not just
-              making a purchase; you&apos;re making a conscious decision to
-              support sustainable agriculture and promote a healthier lifestyle
-              for yourself and future generations. Join us in embracing the
-              vitality of organic living and experience the difference firsthand
-              with our farm-fresh delights. Welcome to a world where every taste
-              tells a story of wholesome goodness!
+              You&apos;re not just making a purchase when you buy from Capital
+              State Farm; you&apos;re making a conscious decision to support
+              sustainable agriculture that promotes a healthier lifestyle for
+              you and your family. In a world where farmers prioritize profit,
+              we embrace the vitality of organically grown food. Welcome to a
+              world where every taste tells a story of farm-fresh delights and
+              wholesome goodness!
             </Typography>
           </motion.div>
         </motion.div>

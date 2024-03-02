@@ -20,7 +20,7 @@ export default function FarmHero() {
         >
           <Typography variant="h2" className="">
             The one stop-shop for{" "}
-            <span className="text-primary">organic farm product</span>
+            <span className="text-primary">organic farm produce</span>
           </Typography>
         </motion.div>
       </div>

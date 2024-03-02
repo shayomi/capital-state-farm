@@ -2,21 +2,21 @@ export const ProductValues = [
   {
     title: "Non-GMO",
     description:
-      "All our products are grown naturally, without any genetic manipulation, the way nature intended.",
+      "All our products are grown naturally, without any genetic manipulation, as nature intended.",
   },
   {
     title: "Ethically sourced",
     description:
-      "We work with farmers under the most ethical and fair conditions, while doing our best to give back to our communities.",
+      "Our farmers work under the most ethical and fair conditions that allow them to optimize their potential.",
   },
   {
     title: "Organic & Natural",
     description:
-      "All ingredients are grown only with the use of natural fertilizers, without a trace of chemicals or synthetic pesticides.",
+      "Our vegetables and fruits are grown only using natural fertilizers, without any chemical input.",
   },
   {
     title: "Healthy",
     description:
-      "All ingredients are grown only with the use of natural fertilizers, without a trace of chemicals or synthetic pesticides.",
+      "Our vegetables, fruits, and animals are cultivated and reared optimally, making them flavourful and nutrient-rich.",
   },
 ];

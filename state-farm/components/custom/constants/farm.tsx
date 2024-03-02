@@ -2,7 +2,7 @@ export const Farm = [
   {
     image: "/images/produce/banana.png",
     name: "Banana",
-    category: "fruits",
+    category: "Fruits",
   },
   {
     image: "/images/produce/cabbage.png",
@@ -19,20 +19,31 @@ export const Farm = [
     name: "Chicken",
     category: "Meats",
   },
-  {
-    image: "/images/produce/cowmilk.png",
-    name: "Cow Milk",
-    category: "Dairies",
-  },
+
   {
     image: "/images/produce/egg.png",
     name: "Eggs",
+    category: "Non-dairies",
+  },
+  {
+    image: "/images/produce/porkmeat.png",
+    name: "Porks",
     category: "Meats",
   },
   {
-    image: "/images/produce/goatmilk.png",
-    name: "Goat Milk",
-    category: "Dairies",
+    image: "/images/produce/goatmeat.png",
+    name: "Chevon(Goat meat)",
+    category: "Meats",
+  },
+  {
+    image: "/images/produce/sheepmeat.png",
+    name: "Muttons",
+    category: "Meats",
+  },
+  {
+    image: "/images/produce/redmeat.png",
+    name: "Beef",
+    category: "Meats",
   },
   {
     image: "/images/produce/maize.png",
@@ -42,7 +53,7 @@ export const Farm = [
   {
     image: "/images/produce/mangoes.png",
     name: "Mangoes",
-    category: "fruits",
+    category: "Fruits",
   },
   {
     image: "/images/produce/okra.png",
@@ -59,11 +70,7 @@ export const Farm = [
     name: "Peas",
     category: "Vegetables",
   },
-  {
-    image: "/images/produce/redmeat.png",
-    name: "Cow Meat",
-    category: "Meats",
-  },
+
   {
     image: "/images/produce/spinach.png",
     name: "Spinach",
@@ -77,7 +84,7 @@ export const Farm = [
   {
     image: "/images/produce/tomato.png",
     name: "Tomatoes",
-    category: "Fruits",
+    category: "Vegetables",
   },
   {
     image: "/images/produce/watermelon.png",

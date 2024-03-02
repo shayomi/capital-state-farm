@@ -21,29 +21,26 @@ const HomeExplore = () => {
               <Typography variant="h3">Explore our farm</Typography>
 
               <Typography variant="h3" className="text-accent mt-4">
-                Welcome to Capital State Farm, where the richness of nature
-                meets sustainable farming practices.
+                Founded in 2023, Capital State Farms was built on the foundation
+                of growing agricultural produce as nature intended using a
+                combination of innovations and age-long farming practices
+                without compromising the nature of the produce.
               </Typography>
 
               <Typography variant="p">
-                Founded by Built upon a foundation of family farming traditions,{" "}
-                <a href="https://www.linkedin.com/in/eaboyeji" target="_blank">
-                  name name
-                </a>{" "}
-                brings decades of experience and a relentless drive to innovate
-                within the organic industry. At Farm Name, we cultivate premium,
-                nutrient dense produce that not only nourishes the body but also
-                fuels the growing demand for organic products in today&apos;s
-                marketplace. Our commitment to quality, sustainability, and
-                consumer satisfaction sets us apart, driving growth and
-                profitability while fostering a healthier planet for future
-                generations.
-              </Typography>
-
-              <Typography variant="p" className="styled-link">
-                Experience the profitability of purpose driven farming at Farm
-                Name, where every harvest represents a sustainable investment in
-                a brighter, greener future.
+                At Capital Farms, we understand that food is the purest form of
+                love, and we strive to cultivate high-quality produce that fuels
+                the growing demand for organic products in today&apos;s
+                marketplace. We run a mixed farming system that includes
+                cultivating plants and raising animals. Our vegetables are grown
+                optimally under the right amount of light, water, and nutrients,
+                while our animals are free-ranging and grass-fed. Not only do
+                our farming practices ensure that our vegetables and meat are
+                nutritious and flavorful to our teeming customers, but they are
+                also sustainable and kind to the environment. The end product of
+                our sustainable farming process is fresh vegetables, meat, and
+                non-dairy produce straight from our farm to your kitchen
+                countertop.
               </Typography>
             </motion.div>
           </div>
@@ -62,6 +59,17 @@ const HomeExplore = () => {
             />
           </motion.div>
         </motion.div>
+        <Typography
+          variant="p"
+          className="styled-link mt-6 max-w-[95%] sm:max-w-[70%] mx-auto"
+        >
+          At Capital State Farms, we are committed to quality, sustainability,
+          and consumer satisfaction. Our excellent attributes of driving growth
+          and healthier food options at pocket-friendly prices while fostering a
+          safer planet for future generations set us apart. Experience food in
+          its purest form at Capital State Farm, where it grows as nature wills
+          it.
+        </Typography>
       </div>
     </motion.section>
   );

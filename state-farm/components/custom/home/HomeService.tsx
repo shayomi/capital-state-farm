@@ -58,20 +58,24 @@ const HomeService = () => {
           >
             <div className="lg:max-w-[590px] lg:ml-auto z-20 -mt-4">
               <Typography variant="h4" className="text-accent mt-4">
-                At our organic farm, we are driven by a deep commitment to
-                sustainability, health, transparency, and community. Our
-                dedication to producing food free from synthetic pesticides and
-                GMOs underscores our mission to provide nourishing, wholesome
-                produce that supports both individual well-being and
-                environmental health.
+                At Capital State Farms, we are deeply committed to
+                sustainability, health, transparency, and community. We are
+                dedicated to producing organic food free from synthetic
+                pesticides and GMOs. Our mixed farming model allows plants to
+                serve as forages for animals and for the animals to produce
+                manure, which serves as natural fertilizers to improve soil
+                quality and facilitate plant growth. Ultimately, our mission is
+                to provide nourishing, wholesome produce that supports
+                individual well-being and is kind to the environment.
               </Typography>
 
               <Typography variant="p">
-                Transparency lies at the heart of our operation. We uphold
-                stringent organic certification standards and provide clear
-                insights into our farming methods and processes. By actively
-                engaging with local consumers, businesses, and agricultural
-                organizations, we foster a sense of community and connection.
+                Transparency in our operations is one of our most upheld values.
+                We operate a standardized organic farm that is duly certified
+                and provides clear insights into our farming methods and
+                processes. Also, by actively engaging our consumers and giving
+                back to the local community, we have built a sense of community
+                and connection.
               </Typography>
             </div>
           </motion.div>

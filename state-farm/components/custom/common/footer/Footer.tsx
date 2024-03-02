@@ -2,6 +2,7 @@ import { Typography } from "@/components/ui/typography";
 
 import FooterContact from "./FooterContact";
 import { Separator } from "@/components/ui/separator";
+import FooterLinks from "./FooterLinks";
 
 const Footer = () => {
   return (
@@ -16,11 +17,12 @@ const Footer = () => {
             />
 
             <Typography variant="p" className="text-foreground">
-              Nurturing nature&apos;s bounty sustainably, cultivating health,
-              fostering community, at Capital State Farm.
+              Nurturing nature&apos;s symphony from farm to countertop
             </Typography>
           </div>
-
+          <div>
+            <FooterLinks />
+          </div>
           <div>
             <FooterContact />
           </div>
@@ -29,7 +31,10 @@ const Footer = () => {
         <Separator className="bg-background" />
 
         <div className="py-4">
-          <Typography variant="smallText" className="text-black font-normal">
+          <Typography
+            variant="smallText"
+            className="text-black font-normal text-center"
+          >
             2024 &#169; Capital State Farm. All rights reserved
           </Typography>
         </div>

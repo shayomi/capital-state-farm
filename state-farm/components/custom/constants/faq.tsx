@@ -9,7 +9,7 @@ export const faqs = [
     question:
       "Are your organic products more expensive compared to conventionally grown ones?",
     answer:
-      "While our organic products may be priced slightly higher due to the cost of organic certification, sustainable farming practices, and labor-intensive cultivation methods, we believe the health and environmental benefits justify the investment.",
+      "While our organic products may be priced slightly higher due to sustainable farming practices and labor-intensive cultivation methods, we believe the health and environmental benefits justify the investment.",
   },
   {
     question:
@@ -20,18 +20,14 @@ export const faqs = [
   {
     question: "How do you handle shipping and delivery of organic products?",
     answer:
-      "We partner with reliable shipping carriers to ensure timely and secure delivery of our organic products to customers nationwide. Our packaging is designed to maintain product freshness and integrity during transit, minimizing environmental impact.",
+      "We have our carriers for orders close to the farm and partner with reliable shipping companies for orders far from the farm. Ultimately, in any case, we ensure timely and secure delivery of our organic products to customers nationwide. Our packaging is designed to maintain product freshness and integrity during transit, minimizing environmental impact.",
   },
-  {
-    question: "What sets your organic farm apart from others?",
-    answer:
-      "Our organic farm stands out for its commitment to sustainability, environmental stewardship, and community engagement. We prioritize soil health, biodiversity, and ethical farming practices to produce high-quality organic products that nourish both people and the planet.",
-  },
+
   {
     question:
       "Can I visit your farm to learn more about your organic farming practices?",
     answer:
-      "Absolutely! We welcome visitors to our farm for guided tours, educational workshops, and farm-to-table experiences. Explore our fields, meet our team, and learn firsthand about the principles and practices of organic farming.",
+      "Absolutely! We welcome visitors to our farm for guided tours, educational workshops, and farm-to-countertop experiences. Explore our fields, meet our team, and learn firsthand about the principles and practices of organic farming. Please schedule an appointment beforehand so we are well prepared to receive you.",
   },
   {
     question:
