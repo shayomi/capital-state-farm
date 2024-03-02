@@ -1,6 +1,5 @@
 "use client";
 import { Typography } from "@/components/ui/typography";
-import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/app/Variant";
 
@@ -17,7 +16,7 @@ const FarmBanner = () => {
             className=" "
           >
             <Typography variant="p" className="text-white">
-              Indulge in the richness of nature with Capital State Farm's Farm's
+              Indulge in the richness of nature with Capital State Farm&apos;s
               exquisite organic produce. From the moment our seeds touch the
               soil to the moment our harvest reaches your plate, we uphold the
               highest standards of organic farming and processing to ensure that

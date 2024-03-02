@@ -1,8 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+
 import { Typography } from "@/components/ui/typography";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/app/Variant";
@@ -37,8 +36,8 @@ export default function FarmDescription() {
               our love for food translates into our passion for the earth that
               grows this food. Thus, we promote environmentally safe practices
               that are kind to the planet. By choosing our organically grown
-              produce, you're not only embracing a healthier lifestyle but also
-              supporting age-long agricultural practices that protect the
+              produce, you&apos;re not only embracing a healthier lifestyle but
+              also supporting age-long agricultural practices that protect the
               environment.
             </p>
           </motion.div>
