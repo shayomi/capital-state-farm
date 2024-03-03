@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+
+  # Exclude specific routes from redirection
+  RewriteCond %{REQUEST_URI} !^/faq
+  RewriteCond %{REQUEST_URI} !^/farm
+  RewriteCond %{REQUEST_URI} !^/contact
+
+  # Apply the redirection rule to all other routes
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
