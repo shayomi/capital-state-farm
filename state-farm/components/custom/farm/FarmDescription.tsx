@@ -48,7 +48,7 @@ export default function FarmDescription() {
             exit={"show"}
             className=""
           >
-            <Image
+            <img
               src="/images/product-farm-bg.png"
               alt="hero image loading"
               width={1000}

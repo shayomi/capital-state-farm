@@ -49,7 +49,7 @@ export default function HomeHero() {
             exit={"show"}
             className=""
           >
-            <Image
+            <img
               src="/images/csf-hero.png"
               alt="hero image loading"
               width={1000}
