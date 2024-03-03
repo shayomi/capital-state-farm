@@ -19,7 +19,7 @@ export default function FarmHero() {
           className="max-w-[32rem] py-36 "
         >
           <Typography variant="h2" className="">
-            From Farm to <span className="text-primary">your Kitchen</span>
+            From our Farm to <span className="text-primary">your Kitchen</span>
           </Typography>
         </motion.div>
       </div>
