@@ -28,9 +28,9 @@ export default function FarmDescription() {
             <p className="p-regular-20 md:p-regular-24">
               <span className="text-accent font-medium">
                 Capital State Farm is dedicated to delivering the finest organic
-                produce straight from our fields to your countertop. Our
-                commitment to organic farming means you can enjoy chemical-free
-                fruits, vegetables, non-dairy, and meats.{" "}
+                produce straight from our farm to your kitchen. Our commitment
+                to organic farming means you can enjoy chemical-free fruits,
+                vegetables, non-dairy, and meats.{" "}
               </span>{" "}
               At Capital State Farm, we love food in its most divine form, and
               our love for food translates into our passion for the earth that

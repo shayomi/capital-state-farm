@@ -20,7 +20,7 @@ const HomeExplore = () => {
             >
               <Typography variant="h3">Explore our farm</Typography>
 
-              <Typography variant="h3" className="text-accent mt-4">
+              <Typography variant="h5" className="text-accent mt-4">
                 Founded in 2023, Capital State Farms was built on the foundation
                 of growing agricultural produce as nature intended using a
                 combination of innovations and age-long farming practices
@@ -39,8 +39,7 @@ const HomeExplore = () => {
                 nutritious and flavorful to our teeming customers, but they are
                 also sustainable and kind to the environment. The end product of
                 our sustainable farming process is fresh vegetables, meat, and
-                non-dairy produce straight from our farm to your kitchen
-                countertop.
+                non-dairy produce straight from our farm to your kitchen.
               </Typography>
             </motion.div>
           </div>
