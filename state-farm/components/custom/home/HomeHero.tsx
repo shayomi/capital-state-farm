@@ -36,7 +36,7 @@ export default function HomeHero() {
 
             <p className="p-regular-20 md:p-regular-24">
               Enjoy food the way nature intended with organically grown produce
-              from our farm to your kitchen.
+              from our farm to your kitchen and tables.
             </p>
             <Button size="lg" className="button w-full sm:w-fit hidden md:flex">
               <Link href="/farm">Explore Now</Link>

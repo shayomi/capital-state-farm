@@ -17,7 +17,8 @@ const Footer = () => {
             />
 
             <Typography variant="p" className="text-foreground">
-              Nurturing nature&apos;s symphony from our farm to countertop
+              Nurturing nature&apos;s symphony from our farm to your kitchen and
+              tables
             </Typography>
           </div>
           <div>
