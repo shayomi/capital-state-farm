@@ -18,7 +18,7 @@ const FaqAccordion = () => {
       variants={fadeIn("down", "tween", 0.6, 1.4)}
       className="container py-20"
     >
-      <motion.div className="max-w-4xl">
+      <motion.div className="max-w-4xl mx-auto">
         <Accordion type="single" collapsible>
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={index.toString()}>

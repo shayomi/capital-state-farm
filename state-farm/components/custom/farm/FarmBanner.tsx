@@ -5,7 +5,7 @@ import { fadeIn } from "@/app/Variant";
 
 const FarmBanner = () => {
   return (
-    <motion.section className="section farm-banner-bg mt-12 sm:mt-24">
+    <motion.section className="section farm-banner-bg mt-12 sm:mt-24 w-full">
       <div className="container py-36">
         <motion.div className="wrapper grid grid-cols-1 gap-10 md:grid-cols-2 2xl:gap-0">
           <motion.div

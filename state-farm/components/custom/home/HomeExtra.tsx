@@ -18,17 +18,17 @@ const HomeExtra = () => {
               className="basis-full md:basis-1/3 order-last md:order-first"
             >
               <div className="md:max-w-xl pb-12 md:pb-0">
-                <div className="mt-0 md:mt-28">
+                <div className="mt-0 md:mt-28 2xl:mt-16">
                   <Typography
                     variant="p"
-                    className=" leading-[1rem] sm:leading-[18px] text-background text-center md:text-start "
+                    className=" leading-[1rem] sm:leading-[18px] text-black text-center md:text-start "
                   >
                     Experience the pure taste of nature&apos;s bounty with our
                     100% organic farm produce.
                   </Typography>
                 </div>
-                <div className="flex justify-center mx-auto md:mx-0 md:justify-start">
-                  <Typography variant="p" className="text-white">
+                <div className="flex text-black justify-center mx-auto md:mx-0 md:justify-start">
+                  <Typography variant="p" className="text-black">
                     For more information, see our{" "}
                     <a href="/faq" className="text-secondary">
                       FAQ
